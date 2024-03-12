@@ -97,3 +97,40 @@ a{
     align-items: center;
     justify-content: center;
 }
+
+.about{
+    display: flex; 
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap:14px;
+    height: 70vh;
+    background-color: aqua;
+}
+
+.about div{
+    background-color: brown;
+}
+
+
+/* Responsiveness  @media*/
+@media only screen and (min-width: 0) and (max-width:560px)
+{
+    .landing_section
+    {
+        padding: 5px;
+        background-color: rgb(255, 255, 255);
+        flex-wrap: wrap;
+    }
+
+    .landing_section .column2
+    {
+        width:100%;
+    }
+}
+
+@media only screen and (min-width: 561px) and (max-width:768px)
+{
+
+}
